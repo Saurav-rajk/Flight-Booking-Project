@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripDay</title>
+    <link rel="stylesheet" href="flight.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+</head>
+<body>
+    
+    <header>
+        <div class="rds-head1">
+            <ul>
+                <li><a href="#">Help</a></li>
+            </ul>
+        
+        <button>Login</button>
+    
+   </div>
+   <div class="rds-head2">
+      <ul>
+        <li><a href="#">Flights</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Car Hire</a></li>
+      </ul>
+   </div>
+   <section class="bd1">
+    
+   <div class="rds-head3">
+    <h2>The best flight offers from anywhere,<br> to everywhere </h2>
+   </div>
+   
+   <div class="int">
+    <input type="radio" class="inpt" name="trip" id="return"  checked />Return <input type="radio" class="inpt" name="trip" id="one-way"/> One way   <input type="radio" class="inpt" name="trip" id="multi-city"/> Multi-city
+   </div>
+   <div class="rds-head4">
+      
+     
+    
+      <div class="input-box">
+         <label>From</label>
+         <input type="text" placeholder="Country, city or airport" class="inp">
+         
+         <ul class="lsti">
+            <li class="lst-item">Country 1</li>
+            <li class="lst-item">Country 2</li>
+            <li class="lst-item">Country 3</li>
+
+            
+         </ul>
+         
+      </div>
+      <div class="input-box">
+        <label>To</label>
+        <input type="text" placeholder="Country, city or airport" class="inp">
+        
+        <ul class="lsti">
+           <li class="lst-item">Country 1</li>
+           <li class="lst-item">Country 2</li>
+           <li class="lst-item">Country 3</li>
+
+           
+        </ul>
+        
+     </div>
+    
+    
+    <div class="input-box">
+        <label>Depart</label>
+
+        <input type="Date" placeholder="" class="inp">
+    </div>
+     <div class="input-box" id="return-box">
+           <label>Return</label>
+           <input type="Date" placeholder="" class="inp" id="return-input">
+    </div>
+    <div class="input-box">
+        <label>Travellers and cabin class</label>
+        <input type="text" placeholder="1 adult, Economy" class="inps" readonly>
+        <div class="pref">
+            <div class="pref-main">
+            <div class="pref-head">
+              <label>Cabin class</label>
+              <div class="inpt-box">
+              <input type="text" placeholder="Select class" class="pref-inp" readonly />
+              <i class="fa-solid fa-caret-down" class="ptb"></i>
+              </div>
+              <ul class="lst-class">
+                <li>Economy</li>
+                <li>Premium Economy</li>
+                <li>Business Class</li>
+                <li>First Class</li>
+              </ul>
+
+            </div>
+              <p class="prerf-lb">Adults</p>
+              <div class="pref1">
+                <button class="pref-btn minus-btn">-</button>
+                <input type="number" value="1" class="num-inp adults-inp">
+                <button class="pref-btn plus-btn">+</button>
+                <span>16+ years</span>
+              </div>
+              <p class="prerf-lb">Children</p>
+              <div class="pref1">
+                <button class="pref-btn minus-btn">-</button>
+                <input type="number" value="0" class="num-inp children-inp">
+                <button class="pref-btn plus-btn">+</button>
+                <span>0-15 years</span>
+              </div>
+
+              <P class="pref-para">Your age at time of travel must be valid for the age category booked. 
+                Airlines have restrictions on under 18s travelling alone.</P>
+
+                <p class="pref-para">Age limits and policies for travelling with children may 
+                vary so please check with the airline before booking.</P>
+                </div>
+                <div class="pref-lst">
+                    <button class="pref-done">Done</button>
+                </div>
+        </div>
+    </div>
+    <button class="bt2">Search</button>
+</div>
+   </div>
+</section>
+    </header>
+    <p class="deals-head"><span class="hd-1">Flight deals from India</span><br>
+    Here are the flight deals with the lowest prices. Act fast – they all 
+        depart within the next three months.</p>
+    <div class="deals-main">
+        <div class="deals">
+            <img src="Amritsar-img.jpg" alt="Trip-image" width="100%" height="140px">
+            <div class="deals-body">
+            <h4>Amritsar<br><span class="h4-part">India</span></h4>
+            
+                <div class="deals-body-part">
+                <p><span class="part-1"> Fri, 21 Jun</span><br>
+                  <span class="part-2">JNP-ATQ with Spicejet Air</span>  </p>
+                  <p>Direct</p>
+                </div>
+                <div class="deals-body-part">
+                  <p><span class="part-1">Tue, 26 Jun </span><br>
+                   <span class="part-2"> ATQ-JNP with Spicejet Air</span> </p>
+                    <p>Direct</p>
+                </div>
+                    <h3 class="part-3">from  ₹
+
+                        589 <span class="pr-3">></span>   </h3>
+                
+            </div>
+
+
+        </div>
+        <div class="deals">
+            <img src="Bangalore-img.jpg" alt="Trip-image" width="100%" height="140px">
+            <div class="deals-body">
+            <h4>Amritsar<br><span class="h4-part">India</span></h4>
+            
+                <div class="deals-body-part">
+                <p><span class="part-1"> Fri, 21 Jun</span><br>
+                  <span class="part-2">JNP-ATQ with Spicejet Air</span>  </p>
+                  <p>Direct</p>
+                </div>
+                <div class="deals-body-part">
+                  <p><span class="part-1">Tue, 26 Jun </span><br>
+                   <span class="part-2"> ATQ-JNP with Spicejet Air</span> </p>
+                    <p>Direct</p>
+                </div>
+                    <h3 class="part-3">from  ₹
+
+                        589 <span class="pr-3">></span>   </h3>
+                
+            </div>
+
+
+        </div>
+        <div class="deals">
+            <img src="chandigarh-img.jpg" alt="Trip-image" width="100%" height="140px">
+            <div class="deals-body">
+            <h4>Amritsar<br><span class="h4-part">India</span></h4>
+            
+                <div class="deals-body-part">
+                <p><span class="part-1"> Fri, 21 Jun</span><br>
+                  <span class="part-2">JNP-ATQ with Spicejet Air</span>  </p>
+                  <p>Direct</p>
+                </div>
+                <div class="deals-body-part">
+                  <p><span class="part-1">Tue, 26 Jun </span><br>
+                   <span class="part-2"> ATQ-JNP with Spicejet Air</span> </p>
+                    <p>Direct</p>
+                </div>
+                    <h3 class="part-3">from  ₹
+
+                        589 <span class="pr-3">></span>   </h3>
+                
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="deals-main">
+        <div class="deals">
+            <img src="Mumbai-img.jpg" alt="Trip-image" width="100%" height="140px">
+            <div class="deals-body">
+            <h4>Amritsar<br><span class="h4-part">India</span></h4>
+            
+                <div class="deals-body-part">
+                <p><span class="part-1"> Fri, 21 Jun</span><br>
+                  <span class="part-2">JNP-ATQ with Spicejet Air</span>  </p>
+                  <p>Direct</p>
+                </div>
+                <div class="deals-body-part">
+                  <p><span class="part-1">Tue, 26 Jun </span><br>
+                   <span class="part-2"> ATQ-JNP with Spicejet Air</span> </p>
+                    <p>Direct</p>
+                </div>
+                    <h3 class="part-3">from  ₹
+
+                        589 <span class="pr-3">></span>   </h3>
+                
+            </div>
+
+
+        </div>
+        <div class="deals">
+            <img src="orissa-img.jpg" alt="Trip-image" width="100%" height="140px">
+            <div class="deals-body">
+            <h4>Amritsar<br><span class="h4-part">India</span></h4>
+            
+                <div class="deals-body-part">
+                <p><span class="part-1"> Fri, 21 Jun</span><br>
+                  <span class="part-2">JNP-ATQ with Spicejet Air</span>  </p>
+                  <p>Direct</p>
+                </div>
+                <div class="deals-body-part">
+                  <p><span class="part-1">Tue, 26 Jun </span><br>
+                   <span class="part-2"> ATQ-JNP with Spicejet Air</span> </p>
+                    <p>Direct</p>
+                </div>
+                    <h3 class="part-3">from  ₹
+
+                        589 <span class="pr-3">></span>   </h3>
+                
+            </div>
+
+
+        </div>
+        <div class="deals">
+            <img src="kolkata-img.jpg" alt="Trip-image" width="100%" height="140px">
+            <div class="deals-body">
+            <h4>Amritsar<br><span class="h4-part">India</span></h4>
+            
+                <div class="deals-body-part">
+                <p><span class="part-1"> Fri, 21 Jun</span><br>
+                  <span class="part-2">JNP-ATQ with Spicejet Air</span>  </p>
+                  <p>Direct</p>
+                </div>
+                <div class="deals-body-part">
+                  <p><span class="part-1">Tue, 26 Jun </span><br>
+                   <span class="part-2"> ATQ-JNP with Spicejet Air</span> </p>
+                    <p>Direct</p>
+                </div>
+                    <h3 class="part-3">from  ₹
+
+                        589 <span class="pr-3">></span>   </h3>
+                
+            </div>
+
+
+        </div>
+    </div>
+   
+        
+    
+
+    
+
+    <div class="pr-body">
+        <h3 class="hd1">Looking for the best flight deals to anywhere in the world?</h3>
+        <p class="pr1">It’s easy around here. 100 million travellers use us as their go-to tool, comparing flight deals and offers from more than 
+            1,200 airlines and travel providers. With so many options to choose from in one place, 
+            you can say hello to savings, and goodbye to stress – here’s how.</p>
+            <img src="img5.jpeg" alt="A real image" fetchpriority="high" width="100%" height="316" class="rds-img1">
+            <div class="para">
+                <div class="div-par">
+                <h4 class="hd4">Search 'Everywhere', explore<br>anywhere</h4>
+                <p class="pr2">Enter your departure airport and travel dates, then hit ‘Everywhere’. You’ll see flights to every
+                     <br>destination in the world, cheapest first.</p></div>
+                <div class="div-par">
+                <h4 class="hd4">Pay less, go further with<br> transparent pricing</h4>
+                <p class="pr2">The cheapest flight deals. No hidden fees. No funny business. With us, the price you see when you<br>
+                     search is what you’ll pay.</p></div>
+                <div>
+                <h4 class="hd4">Book when it's best with Price <br>Alerts</h4>
+                <p class="pr2">Found your flight, but not quite ready to book? Set up Price Alerts and <br>we’ll let you know when your flight price goes up or down.</p>
+                </div>
+
+            </div>
+    </div>
+    <footer>
+        <div class="footerCont">
+            <div class="scI">
+               <a href=""><i class="fa-brands fa-facebook"></i></a>
+               <a href=""><i class="fa-brands fa-instagram"></i></a>
+               <a href=""><i class="fa-brands fa-twitter"></i></a>
+               <a href=""><i class="fa-brands fa-google-plus"></i></a>
+               <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+              <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Privacy & Policy</a></li>
+              </ul>
+            </div>
+            
+        </div>
+        <div class="footerBottom">
+            <p>Copyright &copy;2024; Designed by <span class="desg">Saurav Raj</span></p>
+        </div>
+    </footer>
+    <script src="flight.js"></script>
+    
+</body>
+</html>
